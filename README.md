@@ -16,7 +16,7 @@ It is used the [mqtt.js](https://github.com/mqttjs/MQTT.js) with browserify for 
 
 Example:
 
-'
+```
 var app = angular.module('<your-app>', ['ngmqtt']).run(function(){
 
 	//Angular application started
@@ -52,7 +52,7 @@ app.controller('testController1', ['$scope', '$interval', 'ngmqtt', function($sc
 	});
 }]);
 
-'
+```
 
 It is provided a broker implementation [hbmqtt broker](https://github.com/beerfactory/hbmqtt/) in python.
 
