@@ -10,13 +10,13 @@ It is used the [mqtt.js](https://github.com/mqttjs/MQTT.js) with browserify for 
 
 ------------
 1. Download the package:
-   1. download using npm: `npm install ng-mqtt`
-   1. download using bower: `bower install ng-mqtt`
+   1. download using npm: `npm install ngmqtt`
+   1. download using bower: `bower install ngmqtt`
 1. Modify your application to include `ngmqtt` in your application dependencies.
 
 Example:
 
-```
+'
 var app = angular.module('<your-app>', ['ngmqtt']).run(function(){
 
 	//Angular application started
@@ -52,7 +52,7 @@ app.controller('testController1', ['$scope', '$interval', 'ngmqtt', function($sc
 	});
 }]);
 
-```
+'
 
 It is provided a broker implementation [hbmqtt broker](https://github.com/beerfactory/hbmqtt/) in python.
 

@@ -1,5 +1,5 @@
 {
-  "name": "ng-mqtt",
+  "name": "ngmqtt",
   "main": "ngMqtt.js",
   "version": "0.1",
   "authors": [
@@ -12,5 +12,13 @@
   "license": "MIT",
   "dependencies": {
     "angular": ">=1.0.0 <2.0.0"
-  }
+  },
+  "homepage": "https://github.com/vasco-santos/ngmqtt",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
 }
