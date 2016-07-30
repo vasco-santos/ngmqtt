@@ -1,0 +1,26 @@
+{
+  "name": "ngmqtt",
+  "version": "1.0.0",
+  "description": "Angular service to handle an MQTT connection in multiple controllers",
+  "main": "ngmqtt.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vasco-santos/ngmqtt.git"
+  },
+  "keywords": [
+    "mqtt",
+    "angularjs"
+  ],
+  "author": "vascosantos <santos.vasco10@gmail.com> (http://vasco-santos.github.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vasco-santos/ngmqtt/issues"
+  },
+  "homepage": "https://github.com/vasco-santos/ngmqtt#readme"
+}

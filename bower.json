@@ -1,0 +1,16 @@
+{
+  "name": "ng-mqtt",
+  "main": "ngMqtt.js",
+  "version": "0.1",
+  "authors": [
+    "Vasco Santos <santos.vasco10@gmail.com>"
+  ],
+  "description": "Angular service to handle an MQTT connection",
+  "keywords": [
+    "mqtt"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "angular": ">=1.0.0 <2.0.0"
+  }
+}
