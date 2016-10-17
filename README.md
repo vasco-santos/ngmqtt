@@ -29,29 +29,29 @@ Example:
 	*/
 	app.controller('testController1', ['$scope', '$interval', 'ngmqtt', function($scope, $interval, ngmqtt){
 
-	var options = {
-            clientId: "test",
-            protocolId: 'MQTT',
-            protocolVersion: 4
-        };
-	ngmqtt.connect('ws://127.0.0.1:8888', options);
-	
-	ngmqtt.listenConnection("testController1", function(){
-		console.log("connected");
-		ngmqtt.subscribe('topic4test');
+		var options = {
+		    clientId: "test",
+		    protocolId: 'MQTT',
+		    protocolVersion: 4
+		};
+		ngmqtt.connect('ws://127.0.0.1:8888', options);
 
-		var i = 0;
-		$interval(function() {
-			ngmqtt.publish('topic4test', i.toString());
-			i++;
-		}, 300);
-	});
+		ngmqtt.listenConnection("testController1", function(){
+			console.log("connected");
+			ngmqtt.subscribe('topic4test');
 
-	ngmqtt.listenMessage("testController1", function(topic, message){
-		console.log("message received (Controller 1)");
-		console.log(topic + ": " + message);
-	});
-}]);
+			var i = 0;
+			$interval(function() {
+				ngmqtt.publish('topic4test', i.toString());
+				i++;
+			}, 300);
+		});
+
+		ngmqtt.listenMessage("testController1", function(topic, message){
+			console.log("message received (Controller 1)");
+			console.log(topic + ": " + message);
+		});
+	}]);
 
 '
 
