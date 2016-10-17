@@ -17,16 +17,16 @@ It is used the [mqtt.js](https://github.com/mqttjs/MQTT.js) with browserify for 
 Example:
 
 '
-var app = angular.module('<your-app>', ['ngmqtt']).run(function(){
+	var app = angular.module('<your-app>', ['ngmqtt']).run(function(){
 
-	//Angular application started
-});
+		//Angular application started
+	});
 
 
-/*
-Test Controller 1
-*/
-app.controller('testController1', ['$scope', '$interval', 'ngmqtt', function($scope, $interval, ngmqtt){
+	/*
+	Test Controller 1
+	*/
+	app.controller('testController1', ['$scope', '$interval', 'ngmqtt', function($scope, $interval, ngmqtt){
 
 	var options = {
             clientId: "test",
