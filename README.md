@@ -17,6 +17,7 @@ It is used the [mqtt.js](https://github.com/mqttjs/MQTT.js) with browserify for 
 Example:
 
 '
+
 	var app = angular.module('<your-app>', ['ngmqtt']).run(function(){
 
 		//Angular application started
