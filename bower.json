@@ -1,6 +1,9 @@
 {
   "name": "ngmqtt",
-  "main": "./ngmqtt.js",
+  "main": [
+    "./ngmqtt.js",
+    "./browserMqtt.js",
+  ],
   "version": "0.1",
   "authors": [
     "Vasco Santos <santos.vasco10@gmail.com>"
