@@ -2,7 +2,7 @@
   "name": "ngmqtt",
   "main": [
     "./ngmqtt.js",
-    "./browserMqtt.js",
+    "./browserMqtt.js"
   ],
   "version": "0.1",
   "authors": [
